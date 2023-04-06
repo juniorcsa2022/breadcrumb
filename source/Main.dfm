@@ -26,8 +26,6 @@ object MainForm: TMainForm
     Align = alClient
     TabOrder = 0
     LayoutConfig.Cls = 'CR'
-    ExplicitLeft = 55
-    ExplicitTop = 115
     object UniContainerPanel2: TUniContainerPanel
       AlignWithMargins = True
       Left = 3
@@ -38,10 +36,6 @@ object MainForm: TMainForm
       ParentColor = False
       Align = alClient
       TabOrder = 1
-      ExplicitLeft = 0
-      ExplicitTop = 46
-      ExplicitWidth = 1010
-      ExplicitHeight = 611
       object UniContainerPanel3: TUniContainerPanel
         Left = 0
         Top = 0
@@ -64,9 +58,6 @@ object MainForm: TMainForm
           ParentColor = False
           Color = 3684408
           OnAjaxEvent = URLFrameAjaxEvent
-          ExplicitLeft = 0
-          ExplicitTop = 8
-          ExplicitWidth = 1004
         end
       end
       object UniContainerPanel4: TUniContainerPanel
@@ -80,10 +71,6 @@ object MainForm: TMainForm
         Align = alClient
         TabOrder = 2
         LayoutConfig.Cls = 'CR'
-        ExplicitLeft = 368
-        ExplicitTop = 232
-        ExplicitWidth = 256
-        ExplicitHeight = 128
         object PG_PRINCIPAL: TUniPageControl
           Left = 0
           Top = 0
@@ -94,13 +81,9 @@ object MainForm: TMainForm
           TabBarVisible = False
           Align = alClient
           TabOrder = 1
-          ExplicitLeft = 3
-          ExplicitTop = 49
-          ExplicitHeight = 593
           object tab_dados: TUniTabSheet
             Hint = ''
             Caption = 'tab_dados'
-            ExplicitHeight = 565
             object base1: TUniContainerPanel
               Left = 0
               Top = 0
@@ -111,9 +94,6 @@ object MainForm: TMainForm
               Color = 14803425
               Align = alClient
               TabOrder = 0
-              ExplicitLeft = 80
-              ExplicitTop = 72
-              ExplicitHeight = 565
               object UniContainerPanel5: TUniContainerPanel
                 AlignWithMargins = True
                 Left = 10
@@ -371,8 +351,6 @@ object MainForm: TMainForm
                 Align = alClient
                 TabOrder = 2
                 LayoutConfig.Cls = 'CR'
-                ExplicitTop = 10
-                ExplicitHeight = 545
                 object UniContainerPanel14: TUniContainerPanel
                   AlignWithMargins = True
                   Left = 3
@@ -450,7 +428,6 @@ object MainForm: TMainForm
           object tab_produtos: TUniTabSheet
             Hint = ''
             Caption = 'tab_produtos'
-            ExplicitHeight = 565
             object UniContainerPanel7: TUniContainerPanel
               Left = 0
               Top = 0
@@ -461,9 +438,6 @@ object MainForm: TMainForm
               Color = 14803425
               Align = alClient
               TabOrder = 0
-              ExplicitLeft = 80
-              ExplicitTop = 72
-              ExplicitHeight = 565
               object UniContainerPanel8: TUniContainerPanel
                 AlignWithMargins = True
                 Left = 10
@@ -639,7 +613,6 @@ object MainForm: TMainForm
                 Align = alClient
                 TabOrder = 2
                 LayoutConfig.Cls = 'CR'
-                ExplicitHeight = 470
                 object UniContainerPanel17: TUniContainerPanel
                   AlignWithMargins = True
                   Left = 3
@@ -652,7 +625,6 @@ object MainForm: TMainForm
                   Align = alTop
                   TabOrder = 1
                   LayoutConfig.Cls = 'CR'
-                  ExplicitTop = -4
                   object UniContainerPanel18: TUniContainerPanel
                     AlignWithMargins = True
                     Left = 180
@@ -665,7 +637,6 @@ object MainForm: TMainForm
                     Align = alClient
                     TabOrder = 1
                     LayoutConfig.Cls = 'CR'
-                    ExplicitWidth = 171
                     object UniEdit2: TUniEdit
                       AlignWithMargins = True
                       Left = 3
@@ -680,7 +651,6 @@ object MainForm: TMainForm
                       Align = alClient
                       TabOrder = 1
                       LayoutConfig.Cls = 'CR'
-                      ExplicitWidth = 165
                     end
                   end
                   object UniContainerPanel19: TUniContainerPanel
@@ -726,8 +696,6 @@ object MainForm: TMainForm
                   Align = alTop
                   TabOrder = 2
                   LayoutConfig.Cls = 'CR'
-                  ExplicitLeft = 6
-                  ExplicitTop = 11
                   object UniContainerPanel21: TUniContainerPanel
                     AlignWithMargins = True
                     Left = 180
@@ -793,7 +761,6 @@ object MainForm: TMainForm
           object tab_transporte: TUniTabSheet
             Hint = ''
             Caption = 'tab_transporte'
-            ExplicitHeight = 565
             object UniContainerPanel9: TUniContainerPanel
               Left = 0
               Top = 0
@@ -804,9 +771,6 @@ object MainForm: TMainForm
               Color = 14803425
               Align = alClient
               TabOrder = 0
-              ExplicitLeft = 80
-              ExplicitTop = 72
-              ExplicitHeight = 565
               object UniContainerPanel10: TUniContainerPanel
                 AlignWithMargins = True
                 Left = 10
@@ -946,14 +910,12 @@ object MainForm: TMainForm
                 Align = alClient
                 TabOrder = 2
                 LayoutConfig.Cls = 'CR'
-                ExplicitHeight = 470
               end
             end
           end
           object tab_totalizadores: TUniTabSheet
             Hint = ''
             Caption = 'tab_totalizadores'
-            ExplicitHeight = 565
             object UniContainerPanel28: TUniContainerPanel
               Left = 0
               Top = 0
@@ -964,9 +926,6 @@ object MainForm: TMainForm
               Color = 14803425
               Align = alClient
               TabOrder = 0
-              ExplicitLeft = 80
-              ExplicitTop = 72
-              ExplicitHeight = 565
               object UniContainerPanel29: TUniContainerPanel
                 AlignWithMargins = True
                 Left = 10
@@ -1173,7 +1132,6 @@ object MainForm: TMainForm
                 Align = alClient
                 TabOrder = 2
                 LayoutConfig.Cls = 'CR'
-                ExplicitHeight = 470
               end
             end
           end
@@ -1197,9 +1155,6 @@ object MainForm: TMainForm
     Align = alBottom
     TabOrder = 1
     LayoutConfig.Cls = 'CR'
-    ExplicitLeft = 10
-    ExplicitTop = 10
-    ExplicitWidth = 1090
     object UniLabel4: TUniLabel
       AlignWithMargins = True
       Left = 191
@@ -1216,9 +1171,6 @@ object MainForm: TMainForm
       Font.Height = -19
       Font.Style = [fsBold]
       TabOrder = 1
-      ExplicitLeft = 83
-      ExplicitWidth = 194
-      ExplicitHeight = 47
     end
     object UniImage5: TUniImage
       AlignWithMargins = True
