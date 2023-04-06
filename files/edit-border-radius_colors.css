@@ -1,0 +1,98 @@
+/*
+    Exemplo de Efeito Edits - Border-radius, Border-color e Background-color - Desktop
+    Silvio Santos 
+    uniguidesign@gmail.com
+*/
+
+.x-form-trigger-wrap-default input {
+    background-color: transparent !important;
+    background-image: none !important;
+    border: 0 !important;
+}
+.EditError{
+    border-radius: 0.25rem !important;
+    background-color: #EEE !important;
+    border: 1px solid #ff0019 !important;
+    background-image: none !important;
+}
+
+.EditOK {
+    _padding: 0;
+    border-radius: 0.25rem !important;
+    background-color: #EEE !important;
+/*    border: 1px solid #777 !important; */
+    border: 1px solid #d6f0f8 !important; 
+    background-image: none !important;
+    _box-shadow: 0 10px 10px -5px #777;
+}
+
+
+.x-form-trigger-wrap-default {
+    _padding: 0;
+    border-radius: 0.25rem !important;
+    background-color: white !important;
+    background-image: none !important;
+    _box-shadow: 0 10px 10px -5px #777;
+}
+
+/* UniMemo */
+textarea {
+    border-radius: 0.25rem !important;
+    background-color: #EEE !important;
+}
+
+textarea:focus {
+    background-color: #d6f0f8 !important;
+}
+
+/* Ao receber o foco */
+
+.x-form-trigger-wrap-focus,
+.x-form-trigger-wrap-default:focus {
+    border: 1px solid #d6f0f8 !important;
+    background-color: #d6f0f8 !important;
+}
+
+
+/* Abaixo: Arredonda as bordas do container e ajusta a posição vertical (top) e a cor do ícone do combobox, datetimepicker, etc */
+.x-form-trigger,
+.x-form-trigger-default {
+    border-radius: 0.25rem;
+    background-color: transparent !important;
+}
+
+.x-form-trigger::before,
+.x-form-trigger-default::before {
+    position: relative;
+    top: 3px;
+    color: #333;
+}
+
+.x-field-default-form-focus,
+.x-field-default-form-focus:focus,
+.x-field-default-form-focus:hover,
+.x-field-default-form-focus:active
+{
+border:1px solid black !important;
+background:#D8D8D8 !important;
+}
+
+ 
+.x-form-text {
+    border-radius: 0px; 
+    -moz-border-radius: 0px; 
+    -webkit-border-radius: 0px; 
+    border-color: #E0E0E0;
+    box-shadow: 2px 2px 5px #E0E0E0;
+}
+.x-form-text:focus,
+.x-form-text:hover,
+.x-form-text:active
+{
+    border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    border:1px solid rgb(253, 244, 110) !important;
+    background:rgb(255, 238, 0) !important;
+    box-shadow: 2px 2px 5px #E0E0E0;
+}
